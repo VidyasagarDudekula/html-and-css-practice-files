@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Range input Document</title>
+    </head>
+    <body>
+        <form action="https://www.google.com/search" target="__blank">
+            <label for="first">FIRST NUMBER</label>
+            <input type="range" min="0" max="100" value="50" step="10" name="q" id="first">
+            <label for="operator">Operator</label>
+            <select name="q" id="operator" name="q">
+                <option value="">--please select one--</option>
+                <option value="*">MULTIPLY</option>
+                <option value="+">ADDITION</option>
+                <option value="-">SUBTRACTION</option>
+                <option value="/">DIVISION</option>
+            </select>
+            <label for="second">SECOND NUMBER</label>
+            <input type="range" min="1" max="192" step="3" name="q" id="second" value="3">
+            <p></p>
+            <button>SUBMIT</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0px;
+    padding:0px;
+}
+h1{
+    background-color: #003d5b;
+    color:#ff595e;
+}
+
+button{
+    background-color: #edf2f4;
+    color:#d80032;
+}
+.heading1{
+    display: inline-block;
+}
+.button1{
+    display:block;
+}

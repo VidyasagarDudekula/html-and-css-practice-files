@@ -1,0 +1,23 @@
+button{
+    font-size:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-width:5px;
+    border-style:solid;
+    border-color:#ff9f1c;
+    color:#1b263b;
+    background-color: #ffdab9;
+    margin:2px;
+}
+h1{
+    background-color: #ffd6a5;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    color:#073b4c;
+    border-width:5px;
+    border-color:#3dccc7;
+    border-style: solid;
+    margin:2px;
+}
+body{
+    margin:0px;
+}

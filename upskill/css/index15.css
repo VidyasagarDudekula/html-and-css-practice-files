@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+body{
+    background-color:#03045e;
+    margin-top:30px;
+    margin-left:40px;
+    margin-bottom:500px;
+}
+h1{
+    color:#fcd5ce;
+    margin-bottom:20px;
+    font-size:36px;
+}
+table{
+    font-size:25px;
+    margin-top:20px;
+    background-color: #fdfcdc;
+    color:#0f4c5c;
+}
+tbody thead{
+    color:#0f4c5c;
+}
+tr:hover{
+    background-color:#0f4c5c;
+    color:#fdfcdc;
+    cursor:pointer;
+}
+td{
+    text-align:center;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}

@@ -1,0 +1,16 @@
+h1{
+    color:aqua;
+    background-color:brown;
+    text-align: center;
+    text-decoration: line-through dashed black;
+}
+p{
+    color:green;
+    background-color: aquamarine;
+    text-align: center;
+    line-height:1.5;
+    letter-spacing: 2px;
+}
+body{
+    background-color: blanchedalmond;
+}

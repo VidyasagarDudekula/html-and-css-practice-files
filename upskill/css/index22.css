@@ -1,0 +1,20 @@
+body{
+    margin:25px;
+}
+*{
+    font-family:sans-serif;
+    font-size:21px;
+}
+
+.select-menu{
+    padding:8px 12px;
+    color:#333;
+    background-color: #eee;
+    border:2px solid #999;
+    border-radius: 5px;
+}
+
+.select-menu:hover,
+.select-menu:focus{
+    border-color: #555;
+}

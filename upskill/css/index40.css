@@ -1,0 +1,13 @@
+.first, .second, .third{
+    background-color:#1d3557;
+    width:70px;
+    height:70px;
+    display:inline-block;
+    margin:25px;
+}
+
+#static #middle{
+    background-color:#457b9d;
+    position:static;
+}
+

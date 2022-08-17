@@ -1,0 +1,23 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 36px;
+}
+#search-input{
+    background-color: #2a9d8f;
+}
+button{
+    background-color: #a2d2ff;
+    color:#023047;
+}
+.posted{
+    color:#00bbf9;
+}
+a{
+    color: #5e548e;
+    text-decoration:none;
+}
+body{
+    background-color: #89cedd;
+}

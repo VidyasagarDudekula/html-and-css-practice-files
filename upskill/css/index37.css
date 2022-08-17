@@ -1,0 +1,61 @@
+html, body {
+    background-color: #ffeead;
+    margin: 10px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows:repeat(6,1fr) ;
+    grid-gap:4px;
+}
+
+.container div:nth-child(1){
+    grid-column: span 12;
+}
+
+.container div:nth-child(2),
+.container div:nth-child(3){
+    grid-column:span 6;
+}
+
+.container div:nth-child(4),
+.container div:nth-child(5),
+.container div:nth-child(6){
+    grid-column: span 4;
+}
+
+.container div:nth-child(7),
+.container div:nth-child(8),
+.container div:nth-child(9),
+.container div:nth-child(10){
+    grid-column: span 3;
+}
+
+.container div:nth-child(11),
+.container div:nth-child(12),
+.container div:nth-child(13),
+.container div:nth-child(14),
+.container div:nth-child(15),
+.container div:nth-child(16){
+    grid-column:span 2;
+}
+
+@media screen and (max-width:570px) {
+    .container{
+        display: block;
+    }
+    .container > div{
+        margin:10px 0;
+    }
+}
+
+.container > div{
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    padding:10px;
+}

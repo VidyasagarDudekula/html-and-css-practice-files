@@ -1,0 +1,118 @@
+*{
+    background-color: blue;
+    margin:0px;
+    background-repeat:unset;
+}
+body{
+    margin:8px;
+}
+.container{
+    background-color: dodgerblue;
+    width:1520px;
+    height:740px;
+    display:flex;
+    flex-direction: row;
+}
+.div3{
+    width:700px;
+    height:740px;
+    background-color: #43b580;
+}
+.div1{
+    width:700px;
+    height:440px;
+    background-color: #ef476f;
+    display:flex;
+    flex-direction: row;
+}
+.div01{
+    width:350px;
+    height:440px;
+    background-color: #495867;
+    border:2px solid transparent;
+    border-radius: 5px;
+    background-image: url(images/sagar3.jpg);
+    background-size: cover;
+    background-position:left;
+}
+.div11{
+    width:350px;
+    height:440px;
+    background-color: #ef476f;
+    border:2px solid transparent;
+    border-radius: 5px;
+    background-image: url(images/edgeof17.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.div2{
+    height:300px;
+    width:700px;
+    background-color: #ffd166;
+    border:2px solid transparent;
+    border-radius: 5px;
+    background-image: url(images/posterCP.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div4{
+    width:820px;
+    height:740px;
+    background-color: #ffaa00;
+    display:flex;
+    flex-direction: column;
+}
+.div5{
+    width:820px;
+    height:300px;
+    background-color: #ffaa00;
+    border:2px solid transparent;
+    border-radius: 5px;
+    background-image: url(images/rainy-road.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div6{
+    width:820px;
+    height:440px;
+    background-color: #71a5de;
+    display: flex;
+    flex-direction: row;
+}
+.div60{
+    width:410px;
+    height:440px;
+    background-color: #71a5de;
+    border:2px solid transparent;
+    border-radius: 5px;
+    background-image: url(images/ganesh.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div61{
+    width:410px;
+    height:440px;
+    background-color: #77030b;
+    display: flex;
+    flex-direction: column;
+}
+.div610{
+    width:410px;
+    height:220px;
+    background-color: #77030b;
+    border:2px solid transparent;
+    border-radius: 5px;
+    background-image: url(images/sagar2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div611{
+    width:410px;
+    height:220px;
+    background-color: #ffd100;
+    border:2px solid transparent;
+    border-radius: 5px;
+    background-image: url(images/dark-gree-leaves.jpg);
+    background-size: cover;
+    background-position: center;
+}

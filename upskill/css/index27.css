@@ -1,0 +1,21 @@
+.container{
+    background-color: #184e77;
+    width:1520px;
+    height:740px;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items:flex-end;
+}
+
+.container div{
+    background-color:#52b69a;
+    border:4px solid #34a0a4;
+    width:100px;
+    height:100px;
+    /* margin:auto; */
+}
+
+.container .box-3{
+    align-self: flex-start;
+}

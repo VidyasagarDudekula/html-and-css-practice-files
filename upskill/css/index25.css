@@ -1,0 +1,29 @@
+*{
+    font-family:sans-serif;
+    margin:0px;
+}
+.hero{
+    background-color: white;
+    color:#e6e6e6;
+    background-image: url(images/dark-cloud.jpg);
+    background-size:cover;
+    background-blend-mode:multiply;
+    padding-top:200px;
+    padding-bottom:200px;
+    line-height: 1.5rem;
+}
+.container{
+    max-width: 960px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.hero .container h1{
+    margin-bottom:20px;
+    font-size:46px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero .container h1 span{
+    color:#ff0a54;
+}

@@ -1,0 +1,191 @@
+*{
+    margin:0px;
+    font-family:sans-serif;
+}
+body{
+    padding:25px;
+}
+
+div{
+    border:2px solid dodgerblue;
+}
+.entire-container .picture{
+    display:flex;
+    flex-direction:row;
+    width:700px;
+    background-color: #07e4f9;
+    margin-left:370px;
+    margin-top:20px;
+    border:2px solid transparent;
+}
+
+.entire-container .picture > div{
+    margin:20px 10px;
+}
+
+.entire-container .picture .circle-picture{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    /* margin:10px; */
+    background-color: #07e4f9;
+    box-shadow: 0 0 25px rgba(108,117,125,0.5);
+    border:2px solid transparent;
+}
+.entire-container .picture .circle-picture .circle-picture-inner{
+    width:165px;
+    height:165px;
+    margin:16.5px;
+    border-radius: 50%;
+    background-color: white;
+    border:2px solid transparent;
+    box-shadow: 0 0 25px rgba(108,117,125,0.5);;
+}
+.circle-picture-inner-content{
+    font-size:20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border:2px solid transparent;
+    display:inline-block;
+    margin-top:69px;
+    margin-left:30.5px;
+    color:#07e4f9;
+}
+
+.entire-container .picture .sqaure-picture{
+    margin-left:40px;
+    border:2px solid transparent;
+    color:#4c6a55;
+}
+
+.entire-container .picture .sqaure-picture h1{
+    margin-top:65px;
+    margin-bottom:5px;
+    font-size:35px;
+}
+
+.entire-container .content-body{
+    width:700px;
+    margin-bottom:20px;
+    margin-left:370px;
+}
+
+.entire-container .content-body .name{
+    margin:20px 45px;
+}
+
+.entire-container .content-body .box-heading{
+    font-size:19px;
+    font-weight: bold;
+    color:#4c6a55;
+}
+
+.entire-container .content-body .box-heading span{
+    color:red;
+    margin-left:7px;
+}
+
+.entire-container .content-body .name .first-name{
+    border:1px solid #4c6a55;
+    width:290px;
+    font-size:18px;
+}
+
+.entire-container .content-body .name .last-name{
+    border:1px solid #4c6a55;
+    width:290px;
+    margin-left:9.5px;
+    font-size:18px;
+}
+
+.entire-container .content-body .name .name-caption{
+    margin-top:5px;
+    border:none;
+}
+.entire-container .content-body .caption-text{
+    color:#6c757d;
+    font-weight: lighter;
+    font-size: 16;
+}
+
+.entire-container .content-body .name .name-caption .lastname{
+    margin-left:227px;
+}
+
+.entire-container .content-body .address{
+    margin:20px 45px;
+}
+
+.entire-container .content-body .address .address-street-1{
+    border:1px solid #4c6a55;
+    width:600px;
+    font-size:18px;
+}
+.entire-container .content-body .address .address-street-2{
+    margin-top:20px;
+    border:1px solid #4c6a55;
+    width:600px;
+    font-size:18px;
+}
+
+.entire-container .content-body .address .city-name{ 
+    margin-top:20px;
+    border:1px solid #4c6a55;
+    width:290px;
+    font-size:18px;
+}
+
+.entire-container .content-body .address .state-name{
+    margin-top:20px;
+    border:1px solid #4c6a55;
+    width:290px;
+    margin-left:9.5px;
+    font-size:18px;
+}
+
+.entire-container .content-body .address .name-caption .state{
+    margin-left:275px;
+}
+
+.entire-container .content-body .address .zip-code-name{ 
+    margin-top:20px;
+    border:1px solid #4c6a55;
+    width:290px;
+    font-size:18px;
+}
+
+.entire-container .content-body .address .country-name{
+    margin-top:20px;
+    border:1px solid #4c6a55;
+    width:290px;
+    margin-left:9.5px;
+    font-size:18px;
+}
+
+.entire-container .content-body .address .name-caption .country{
+    margin-left:179px;
+}
+
+.entire-container .content-body  div{
+    border:none;
+}
+
+.entire-container .content-body .mobilenumber{
+    margin:25px 45px;
+}
+.entire-container .content-body .mobilenumber .areacode-name{ 
+    border:1px solid #4c6a55;
+    width:190px;
+    font-size:18px;
+}
+
+.entire-container .content-body .mobilenumber .phonenumber-name{
+    border:1px solid #4c6a55;
+    width:389px;
+    margin-left:9.5px;
+    font-size:18px;
+}
+
+.entire-container .content-body .mobilenumber .name-caption .phone-number{
+    margin-left:129px;
+}

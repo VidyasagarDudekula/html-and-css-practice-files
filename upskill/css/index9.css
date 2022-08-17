@@ -1,0 +1,32 @@
+*{
+    font-size:16px;
+}
+*::selection{
+    color:white;
+    background-color: #5a189a;
+}
+input[type=password]{
+    color:gray;
+}
+input[type="text"]
+{
+    color:#f72585;
+}
+label:hover{
+    color:#ff595e;
+}
+button{
+    color:#1982c4;
+    background-color:#fde2e4 ;
+}
+button:hover{
+    color:#fde2e4;
+    background-color:#1982c4 ;
+}
+a{
+    color:#3a7ca5;
+}
+a:hover{
+    font-weight:bold;
+    font-size:30px;
+}

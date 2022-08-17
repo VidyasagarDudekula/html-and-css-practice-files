@@ -1,0 +1,32 @@
+body{
+    padding:25px;
+}
+.entire-form-container{
+    font-family:sans-serif;
+    font-size:18px;
+}
+.entire-form-container *{
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+.entire-form-container h1{
+    font-size:2em;
+}
+.entire-form-container p{
+    font-size:1.2em;
+}
+.entire-form-container .form-item{
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+    margin-bottom:20px;
+    
+}
+.entire-form-container .form-item > *{
+    align-self: flex-start;
+    padding:8px 0;
+}
+.entire-form-container .form-item .input-box{
+    font-size:0.9em;
+    font-weight:400;
+}

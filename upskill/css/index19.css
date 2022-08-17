@@ -1,0 +1,49 @@
+*{
+    font-family:sans-serif;
+}
+body{
+    padding:25px 0;
+}
+.text-area-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.text-area-container > *{
+     align-self:flex-start;
+}
+
+.text-area-container label{
+    font-size: 27px;
+    margin-bottom:10px;
+}
+
+.text-area-container .text-area{
+    font-size:20px;
+    border: 5px solid transparent;
+    border-radius:5px;
+    padding:10px;
+    background-color: #dddddd;
+    outline: none;
+    max-width: 290px;
+    min-width: 290px;
+    font-weight:500px;
+    max-height: 220px;
+    min-height: 220px;
+    line-height:1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#6c757d;
+    transition: all 0.2s;
+}
+
+.text-area-container .text-area:hover{
+    cursor:pointer;
+    background-color: #eee;
+}
+
+.text-area-container .text-area:focus{
+    cursor:text;
+    color:#333333;
+    background-color: white;
+    border-color: #333333;
+}

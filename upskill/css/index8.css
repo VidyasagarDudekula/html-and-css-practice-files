@@ -1,0 +1,14 @@
+input + button{
+    color:#6a040f;
+    background-color: #ffd60a;
+}
+h1{
+    color:#758bfd;
+}
+h1 + button{
+    color: #0f4c5c;
+    background-color: #e9ff70;
+}
+body{
+    background-color: #eae2b7;
+}

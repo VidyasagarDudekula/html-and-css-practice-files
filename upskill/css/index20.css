@@ -1,0 +1,48 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.2s;
+}
+body{
+    margin:0px;
+    padding:25px;
+}
+.input-text-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.input-text-container >*{
+    align-self:flex-start;
+}
+
+.input-text-container .input-text-label{
+    margin-bottom:10px;
+    font-size:26px;
+    color:dodgerblue;
+    text-transform: capitalize;
+}
+.input-text-container .input-text-label:hover{
+    cursor:pointer;
+}
+
+.input-text-container .input-text-box{
+    border:2px solid transparent;
+    outline:none;
+    border-radius:5px;
+    padding:10px 5px;
+    font-size: 21px;
+    color:#495057;
+    background-color: #dee2e6;
+}
+.input-text-container .input-text-box:hover{
+    cursor:pointer;
+    background-color: #e9ecef;
+    color:#6c757d;
+    box-shadow: 0 0 5px rgba(108,117,125,0.8);
+}
+.input-text-container .input-text-box:focus{
+    background-color:white;
+    color:dodgerblue;
+    box-shadow: 0 0 5px rgba(40, 153, 233, 0.8);
+    border: 2px solid dodgerblue;
+}

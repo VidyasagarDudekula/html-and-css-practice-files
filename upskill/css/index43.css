@@ -1,0 +1,9 @@
+*{
+    transition: all 0.3s;
+}
+header img{
+    width:600px;
+}
+main img{
+    width:900px;
+}

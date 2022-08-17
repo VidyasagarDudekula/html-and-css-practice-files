@@ -1,0 +1,32 @@
+body{
+    background-color:#e9c46a;
+    margin:0px;
+    padding:150px;
+}
+
+.container{
+    color:white;
+    font-size: 20px;
+    display:grid;
+    grid-gap:4px;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-template-rows:50px 50px;
+}
+
+.container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div:nth-child(1n){
+    background-color: #8ecae6;
+}
+
+.container > div:nth-child(2n){
+    background-color: #f5cac3;
+}
+
+.container div:nth-child(3n){
+    background-color: #f28482;
+}

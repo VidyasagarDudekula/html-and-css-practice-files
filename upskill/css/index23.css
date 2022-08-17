@@ -1,0 +1,25 @@
+article{
+    font-size:30px;
+}
+article h1{
+    font-size:2em;
+}
+
+article h2{
+    font-size: 1.5em;
+}
+
+article p{
+    font-size: 1em;
+}
+.first{
+    background-color:#9b5de5;
+    width:500px;
+    height:500px;   
+}
+
+.first .second{
+    background-color:#00bbf9;
+    width:50%;
+    height:50%;
+}

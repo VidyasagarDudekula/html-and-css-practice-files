@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <body>
+        <h1>Registration Form!</h1>
+        <form action="/buddy">
+            <label for="first">First Name</label>
+            <input id="first" type="text" placeholder="First Name" name="first" required>
+            <label for="last">Last Name</label>
+            <input type="text" id="last" placeholder="Last Name" name="second" required>
+            <br>
+
+            <label for="">Select a race:- </label>
+            <br>
+            <label for="fun-run-5k">Fun Run 5K</label>
+            <input id="'fun-run-5k" name="run" type="radio" value="5k">
+            <br>
+            <label for="half-marathon">Half Marathon</label>
+            <input id="'half-marathon" name="run" type="radio" value="half-run">
+            <br>
+            <label for="full-marathon">Full Marathon</label>
+            <input id="'full-marathon" name="run" type="radio" value="full-run">
+            <br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email Address" name="emil" required>
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" id="password" name="password" required>
+            <br>
+
+            <label for="age">Select a age group:-</label>
+            <select name="age" id="age">
+                <option value="kids">Under 18</option>
+                <option value="youngstar">18 to 30</option>
+                <option value="adults">30+</option>
+                <option value="legends">50+</option>
+            </select>
+            <br>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
